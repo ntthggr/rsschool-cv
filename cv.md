@@ -37,9 +37,9 @@ function dataReverse(data) {
 
 -  University: Ural State University of Economics, Marketing Specialist
 -  Courses:
-   -  Freelancer Lifestyle https://edu.fls.guru/
-   -  The Modern JavaScript Tutorial https://javascript.info/
-   -  Bogdan Stashchuk - JavaScript For Beginners https://www.udemy.com/course/javascript-ru/
+   -  [Freelancer Lifestyle](https://edu.fls.guru/)
+   -  [The Modern JavaScriptTutorial](https://javascript.info/)
+   -  [Bogdan Stashchuk - JavaScript For Beginners](https://www.udemy.com/course/javascript-ru/)
 
 ## English
 
