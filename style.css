@@ -4,16 +4,10 @@
 /* VAR ================================================================================================*/
 :root {
 	--main-color: #e02f6b;
-	--blue: #0000ff;
 	--blue-dark: #18393c;
-	--orange: #ffa500;
-	--green-yellow: #cddc39;
-	--pink-light: rgb(89, 88, 175);
-	--cyan-light: #98bba5;
 	--white: #ffffff;
 	--white-alpha-40: rgba(255, 255, 255, 0.4);
 	--white-alpha-25: rgba(255, 255, 255, 0.25);
-	--backdrop-filter-blur: blur(5px);
 }
 
 /* REGULAR ================================================================================================*/
@@ -47,8 +41,7 @@ body {
 	color: var(--blue-dark);
 	line-height: 1.5;
 	overflow-x: hidden;
-	-webkit-tap-highlight-color: transparent;
-	padding: 5vh 15px;
+	padding: 15px;
 }
 
 img {
@@ -63,7 +56,7 @@ body::before {
 	top: 0;
 	height: 100%;
 	width: 100%;
-	background-color: var(--green-yellow);
+	background-color: #cddc39;
 	z-index: -1;
 	opacity: 0.12;
 }
@@ -91,10 +84,9 @@ ul {
 section {
 	background-color: var(--white-alpha-25);
 	border: 1px solid var(--white-alpha-40);
-	min-height: 90vh;
 	border-radius: 30px;
-	backdrop-filter: var(--backdrop-filter-blur);
-	margin-bottom: 10vh;
+	backdrop-filter: blur(5px);
+	margin-bottom: 30px;
 }
 
 section:last-child {
@@ -133,11 +125,9 @@ section:last-child {
 .align-items-center {
 	align-items: center;
 }
-.hidden {
-	display: none !important;
-}
+
 .sec-padding {
-	padding: 100px 0 0;
+	padding: 80px 0 0;
 }
 
 /* BTN ================================================================================================*/
@@ -204,7 +194,7 @@ button {
 
 .nav__menu {
 	position: fixed;
-	top: 6vh;
+	top: 30px;
 	width: 30%;
 	border-radius: 30px;
 	backdrop-filter: blur(10px);
@@ -238,7 +228,7 @@ button {
 /* HOME ================================================================================================*/
 .home-section {
 	display: flex;
-	padding: 120px 0;
+	padding: 100px 0;
 }
 
 .home-text,
@@ -269,7 +259,7 @@ button {
 	max-width: 360px;
 	background-color: var(--white-alpha-25);
 	border-radius: 50%;
-	border: 8px solid var(--white-alpha-25);
+	border: 8px solid var(--white-alpha-40);
 	margin: auto;
 }
 
@@ -471,7 +461,7 @@ button {
 }
 
 .contact-form .input-control:focus {
-	border-color: var(--white-alpha-40);
+	border: 1px solid var(--white-alpha-40);
 	background-color: var(--white-alpha-40);
 }
 
@@ -554,7 +544,7 @@ button {
 }
 
 .contact-button:hover .contact-button-icon {
-	transform: translateX(0.25rem);
+	transform: translateX(5px);
 }
 
 .contact-button-icon {
