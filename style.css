@@ -621,3 +621,14 @@ button {
 	flex: 0 1 100%;
 	text-align: center;
 }
+
+/* SCROLL BAR ================================================================================================*/
+::-webkit-scrollbar {
+	width: 5px;
+}
+::-webkit-scrollbar-track {
+	background-color: var(--white);
+}
+::-webkit-scrollbar-thumb {
+	background-color: var(--main-color);
+}
