@@ -29,11 +29,3 @@ function scrollActive() {
 	});
 }
 window.addEventListener('scroll', scrollActive);
-
-mybutton = document.getElementById('top');
-
-function topFunction() {
-	event.preventDefault();
-	document.body.scrollTop = 0;
-	document.documentElement.scrollTop = 0;
-}
