@@ -1,12 +1,12 @@
 <!DOCTYPE html>
 <html lang="ru">
 	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="style.css" />
-		<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet" />
-		<link rel="icon" href="favicon.png" />
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css" rel="stylesheet">
+		<link rel="icon" href="favicon.png">
 		<title>CV @ntthggr</title>
 	</head>
 	<body>
@@ -15,17 +15,17 @@
 				<div class="nav__menu">
 					<ul class="nav__list">
 						<li class="nav__item">
-							<a href="#home" class="nav__link active-link">
+							<a href="#home" aria-label="home" class="nav__link active-link">
 								<i class="bx bx-home-alt"></i>
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="#about" class="nav__link">
+							<a href="#about" aria-label="about" class="nav__link">
 								<i class="bx bx-user"></i>
 							</a>
 						</li>
 						<li class="nav__item">
-							<a href="#contact" class="nav__link">
+							<a href="#contact" aria-label="contact" class="nav__link">
 								<i class="bx bx-message-square-detail"></i>
 							</a>
 						</li>
@@ -39,7 +39,7 @@
 					<div class="row align-items-center">
 						<div class="home-img">
 							<div class="img-box">
-								<img src="me.png" alt="my-photo" />
+								<img src="me.png" alt="my-photo">
 							</div>
 						</div>
 						<div class="home-text">
@@ -142,11 +142,11 @@
 										<h4>code example</h4>
 										<pre>
 function dataReverse(data) {
- const res = []; 
- const size = 8 
+ const res = [];
+ const size = 8
  for (let i = 0; i &lt; data.length; i += size) {
   const byte = data.slice(i, i + size);
-  res.push(byte); 
+  res.push(byte);
  }
  return res.reverse().flat();
 }</pre
@@ -157,7 +157,7 @@ function dataReverse(data) {
 						</div>
 						<div class="about-img">
 							<div class="img-box">
-								<img src="me.png" alt="again-me" />
+								<img src="me.png" alt="again-me">
 							</div>
 						</div>
 					</div>
@@ -175,13 +175,13 @@ function dataReverse(data) {
 							<form action="https://formsubmit.co/940e4199294c6c470a61cdbe71337a7f" method="POST">
 								<div class="row">
 									<div class="input-group">
-										<input type="text" placeholder="Name" name="Name" class="input-control" required />
+										<input type="text" placeholder="Name" name="Name" class="input-control" required>
 									</div>
 									<div class="input-group">
-										<input type="text" placeholder="Email" name="Email" class="input-control" required />
+										<input type="text" placeholder="Email" name="Email" class="input-control" required>
 									</div>
 									<div class="input-group">
-										<input type="text" placeholder="Subject" name="Subject" class="input-control" required />
+										<input type="text" placeholder="Subject" name="Subject" class="input-control" required>
 									</div>
 									<div class="input-group">
 										<textarea placeholder="Message" name="Message" class="input-control" required></textarea>
@@ -225,14 +225,14 @@ function dataReverse(data) {
 				<div class="logo-rs">
 					<a href="https://rs.school/js/" target="_blank">
 						<div class="logo-box">
-							<img class="logo" src="rs_school_js.svg" alt="Rss-logo" />
+							<img class="logo" src="rs_school_js.svg" alt="Rss-logo">
 						</div>
 					</a>
 				</div>
 				<div class="social-links">
-					<a href="https://github.com/ntthggr" target="_blank"><i class="bx bxl-github"></i></a>
-					<a href="https://vk.com/ntthggr" target="_blank"><i class="bx bxl-vk"></i></a>
-					<a href="https://steamcommunity.com/id/ntthggr" target="_blank"><i class="bx bxl-steam"></i></a>
+					<a href="https://github.com/ntthggr" aria-label="git" target="_blank"><i class="bx bxl-github"></i></a>
+					<a href="https://vk.com/ntthggr" aria-label="vk" target="_blank"><i class="bx bxl-vk"></i></a>
+					<a href="https://steamcommunity.com/id/ntthggr" aria-label="steam" target="_blank"><i class="bx bxl-steam"></i></a>
 					<div class="footer-year">© ntthggr 2022</div>
 				</div>
 			</footer>
